@@ -64,7 +64,8 @@ body {
   font-size: 1.3em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 1em;
+  color: #3a3a3a; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -209,14 +210,14 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #322625;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #524442;
   text-shadow: none;
   border: none; }
 
@@ -229,9 +230,9 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
+  /*background: rgba(255, 255, 255, 0.12);
   border: 4px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/ }
 
 .reveal section img.plain {
   border: 0;
